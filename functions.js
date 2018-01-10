@@ -3,6 +3,12 @@
 const genRand = require('./get-random-number')
 const structjson = require('./structjson')
 
+/***
+
+  Original source: https://github.com/dialogflow/dialogflow-nodejs-client-v2/blob/master/samples/resource.js
+
+***/
+
 function clearContexts(projectId, sessionId) {
   return listContexts(projectId, sessionId).then(contexts => {
     return Promise.all(
