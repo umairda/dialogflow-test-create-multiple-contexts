@@ -1,0 +1,25 @@
+{
+  "name": "dialogflow-test-create-multiple-contexts",
+  "version": "1.0.0",
+  "description": "test deleting, creating and listing dialogflow contexts",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/umairda/dialogflow-test-create-multiple-contexts.git"
+  },
+  "keywords": [
+    "dialogflow",
+    "contexts"
+  ],
+  "author": "umair ansari",
+  "license": "ISC",
+  "dependencies": {
+    "dialogflow": "^0.1.0"
+  },
+  "devDependencies": {
+    "jasmine": "^2.8.0"
+  }
+}
