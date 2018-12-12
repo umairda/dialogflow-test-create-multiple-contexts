@@ -40,7 +40,7 @@ function createContext(projectId, sessionId, name='pizza_order') {
     parent: sessionPath,
     context: {
       name: pizzaContextPath,
-      lifespanCount: genRand(10),
+      lifespanCount: 10,
       parameters: structjson.jsonToStructProto({
         random: genRand(),
         size: 'large',
