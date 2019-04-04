@@ -20,6 +20,6 @@
     "dialogflow": "^0.1.0"
   },
   "devDependencies": {
-    "jasmine": "^2.8.0"
+    "jasmine": "^2.99.0"
   }
 }
