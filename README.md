@@ -6,6 +6,8 @@
 
 I frequently set contexts via the dialogflow v1 api. I noticed that when using the new v2 api that at times not all contexts are being set. I wrote a test that can be run repeatedly to observe this behavior.
 
+UPDATE: As of 2019 it appears the contexts are now being set but now at times when I delete all the contexts then not all the contexts are always deleted.
+
 ---
 
 #### To run the test once:
@@ -39,3 +41,5 @@ GOOGLE_APPLICATION_CREDENTIALS=/path/to/google/keyfile PROJECT_ID=your-project-i
 - wrote "test.spec.js" which runs the above createContext function once
 
 - added parameters in `index.js` to run createContext function repeatedly
+
+- eventually I am noticing that not all contexts are deleted.
